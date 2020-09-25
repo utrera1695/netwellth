@@ -1,3 +1,34 @@
+@media screen and (min-width: 970px) {
+  .custom-container-section1 {
+    height: 90vh;
+  }
+  .custom-container-txt-section1 {
+    left: 22vh;
+    position: relative;
+  }
+  .custom-btn-trynow {
+    position: relative;
+    bottom: 1vh;
+  }
+  .txt-top-different {
+    font-size: 3rem !important;
+  }
+  .secundary-text {
+    color: #989898 !important;
+  }
+  .custom-employee-section {
+    position: relative;
+    top: 10vh;
+  }
+  .results {
+    background: #f4f4f4 !important;
+    padding: 5vh;
+  }
+  .footer-cont {
+    margin-top: 4vh;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .custom-container-section {
     display: none;
