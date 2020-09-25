@@ -29,12 +29,11 @@
   .footer-cont {
     margin-top: 4vh;
   }
-  .custom-container-text-pt{
+  .custom-container-text-pt {
     font-weight: bold;
     padding: 0px 6rem;
   }
-  .custon-container-txt-employee{
-    
+  .custon-container-txt-employee {
     color: #666;
   }
 }
@@ -52,11 +51,17 @@
 }
 
 @media screen and (min-width: 970px) {
+  .custom-container-img-social {
+    display: none;
+  }
+  .font-custom-social {
+    display: none;
+  }
   .custom-container-section {
     display: none;
   }
 
-  .custom-container-text-pt{
+  .custom-container-text-pt {
     font-weight: bold;
     padding: 0px 6rem;
   }
@@ -177,8 +182,6 @@
     justify-content: center;
   }
 
-
-
   .inmax {
     display: none !important;
   }
@@ -250,7 +253,6 @@
 
   .responsive-container-email.input {
     padding-top: 0rem !important;
-
   }
 
   .top-side {
@@ -274,11 +276,10 @@
   .txt-top-different {
     font-size: 2.5rem !important;
     text-align: center;
-    font-weight: bold; 
-     width: 34vh; 
-     position: relative; 
-     right: 10vh; 
-}
+    font-weight: bold;
+    width: 34vh;
+    position: relative;
+    right: 10vh;
   }
 
   .txt-responsive-different {
@@ -300,17 +301,29 @@
   .responsive-employee hr {
     width: 24rem !important;
   }
-  .p1{
+  .p1 {
     margin: 0 auto;
     padding: 0 4rem;
   }
-  .custom-footer-txt{
+  .custom-container-img-social {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+  }
+  .font-custom-social {
+    font-size: 25px;
+    text-align: center !important;
+  }
+  .custom-footer-txt {
     font-size: 1.8rem;
   }
   .footer-cont {
     margin-top: 8vh;
-}
-  .custom-logo-none{
+  }
+  .custom-logo-none {
     display: none !important;
   }
 
@@ -363,7 +376,7 @@
     margin-top: -3.75rem;
   }
 
-  .center-row-option>.col-4 {
+  .center-row-option > .col-4 {
     max-width: 100% !important;
   }
 
@@ -401,11 +414,11 @@
     flex-direction: column;
   }
 
-  .center-row-option-paid>.col-3 {
+  .center-row-option-paid > .col-3 {
     max-width: 100% !important;
   }
 
-  .center-row-option-paid>.col-2 {
+  .center-row-option-paid > .col-2 {
     max-width: 100% !important;
   }
 
@@ -447,7 +460,7 @@
     margin-top: 20px;
   }
 
-  .center-row-option-footer>.col-2 {
+  .center-row-option-footer > .col-2 {
     max-width: 100% !important;
     flex: none !important;
   }
@@ -524,7 +537,6 @@
     text-align: center !important;
     font-size: 1.5rem !important;
     border-left: none;
-
   }
 
   .respBannerRight {
