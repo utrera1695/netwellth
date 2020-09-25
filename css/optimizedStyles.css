@@ -12,6 +12,8 @@
   }
   .txt-top-different {
     font-size: 3rem !important;
+    line-height: normal;
+    font-weight: bold;
   }
   .secundary-text {
     color: #989898 !important;
@@ -26,6 +28,14 @@
   }
   .footer-cont {
     margin-top: 4vh;
+  }
+  .custom-container-text-pt{
+    font-weight: bold;
+    padding: 0px 6rem;
+  }
+  .custon-container-txt-employee{
+    
+    color: #666;
   }
 }
 
@@ -44,6 +54,11 @@
 @media screen and (min-width: 970px) {
   .custom-container-section {
     display: none;
+  }
+
+  .custom-container-text-pt{
+    font-weight: bold;
+    padding: 0px 6rem;
   }
 
   .responsive-menu {
@@ -257,8 +272,13 @@
   }
 
   .txt-top-different {
-    font-size: 1.7rem !important;
+    font-size: 2.5rem !important;
     text-align: center;
+    font-weight: bold; 
+     width: 34vh; 
+     position: relative; 
+     right: 10vh; 
+}
   }
 
   .txt-responsive-different {
@@ -279,6 +299,19 @@
 
   .responsive-employee hr {
     width: 24rem !important;
+  }
+  .p1{
+    margin: 0 auto;
+    padding: 0 4rem;
+  }
+  .custom-footer-txt{
+    font-size: 1.8rem;
+  }
+  .footer-cont {
+    margin-top: 8vh;
+}
+  .custom-logo-none{
+    display: none !important;
   }
 
   .img-responsive-employee {
@@ -303,6 +336,7 @@
 
   .resp-no-margin {
     margin-left: 1px !important;
+    margin: 0 auto !important;
   }
 
   .resp-col-algorith {
@@ -398,7 +432,7 @@
   }
 
   .border-custom-paid {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
   }
 
   .custom-save-text2 {
