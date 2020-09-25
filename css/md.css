@@ -1,0 +1,269 @@
+@media (min-width: 768px) and (max-width: 991.5px) {
+  .banner{
+    min-height: 70vh;
+  }
+  /*banner*/
+  .banner .text-1{
+    font-size: 35px;
+    margin-top: 13vh;
+    line-height: 45px;
+  }
+
+  .banner .text-2{
+    font-size: 23px;
+    margin-top: 15px;
+  }
+
+  .banner img {
+    width: 300px;
+    margin-top: 10vh;
+  }
+  .button-texto {
+    margin-top: 10vh;
+    margin-bottom: 40px;
+    font-size: 23px;
+  }
+
+  #banner .text-3 {
+    font-size: 37px;
+    margin-bottom: 30px;
+  }
+
+  .banner .form-group{
+    margin-left: 10px;
+  }
+
+  .banner .letter-text-1 {
+    font-size: 33px;
+}
+
+
+.url-content {
+  font-size: 20px;
+  height: 60px;
+}
+
+  .banner .material-icons{
+    font-size: 20px;
+  }
+  
+  /*duck*/
+  .ducks-msg-1 {
+      margin-top: 7vh;
+  }
+  .duck-img {
+    margin-top: 0;
+    margin-left: 1vh;
+  }
+
+
+  #animation_container {
+    width: 720px !important;
+    height: 350px !important;
+    top: -481px !important;
+    left: 0px !important;
+  }
+
+  #canvas {
+    width: 720px !important;
+    height: 350px !important;
+    position: absolute;
+    display: none;
+    margin-top: 250px !important;
+  }
+  #dom_overlay_container {
+    pointer-events: none;
+    overflow: hidden;
+    width: 720px !important;
+    height: 350px !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .ducks-msg {
+    margin-top: 186px;
+    margin-right: -108px;
+  }
+  .ducks-text-1 {
+    line-height: 42px;
+  }
+
+  .ducks-text-2 {
+    font-size: 14px;
+  }
+
+  .info-texto {
+    font-size: 26px;
+    margin-right: -3%;
+  }
+
+  .info-texto-1 {
+    margin-top: 53px;
+    margin-bottom: 50px;
+    font-size: 13px;
+  }
+  .info-texto-2 {
+    font-size: 13px;
+  }
+
+  .btn-info {
+    border-color: blue;
+  }
+
+  .lineaVertical {
+    margin-right: -18px;
+  }
+
+  .btn-sm {
+    border-radius: 0.3rem !important;
+  }
+
+  /*cards*/
+
+  .card {
+    width: 220px;
+  }
+
+  .cards-cont ul {
+    list-style: none;
+  }
+
+  .cards-cont li {
+    margin-left: -30px;
+  }
+
+  hr {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: -30px;
+  }
+
+  .card-title-2 {
+    font-size: 18px;
+    padding-top: 16px;
+  }
+
+  /*employee employer advisor*/
+
+  .advisor-section {
+    height: 710px;
+  }
+  .employee-msg,
+  .employer-msg,
+  .advisor-msg {
+    max-width: 300px;
+    text-align: left;
+    margin-left: 64px;
+  }
+
+  .employee-section .principal-text,
+  .employer-section .principal-text,
+  .advisor-section .principal-text {
+    font-size: 50px;
+    line-height: 54px;
+  }
+
+  .employee-section .secundary-text,
+  .employer-section .secundary-text,
+  .advisor-section .secundary-text {
+    font-size: 16px;
+  }
+
+  .employee-section hr,
+  .employer-section hr,
+  .advisor-section hr {
+    margin-left: 0px;
+  }
+
+  .employee-section img,
+  .employer-section img,
+  .advisor-section img {
+    width: 400px;
+  }
+
+  .advisor-section img {
+    margin-top: 187px;
+  }
+
+  /**/
+  /*mana*/
+  .mana-text {
+    font-size: 32px;
+  }
+
+  /*best live*/
+  .bestcard {
+    margin-top: -46px;
+    width: 370px;
+    height: 370px;
+    margin-left: 0px;
+  }
+
+  .best-text-1 {
+    font-size: 40px;
+  }
+
+  .best-text-2 {
+    font-size: 18px;
+  }
+
+  .best-text-3 {
+    font-size: 28px;
+    color: #000000;
+    margin-top: 29% !important;
+  }
+
+  /*coach*/
+  .learnmore {
+    margin-top: -26px;
+  }
+
+  /*Benefist*/
+  /*Benefist*/
+  .benef-card {
+    width: 330px;
+    height: 200px;
+  }
+
+  .benef-card-content {
+    margin-top: 71px;
+  }
+
+  .benef-card img {
+    width: 55px;
+  }
+
+  .benef-card-text {
+    font-size: 18px;
+  }
+
+  /*contact local*/
+
+  .contac-cont {
+    height: 200px;
+  }
+  .contac-cont .mg{
+    margin-top: 12%;
+  }
+  .awite {
+    font-size: 1.2rem !important;
+  }
+  .cont-text-1{
+    font-size: 24px;
+  }
+/* results**/
+  .results{ 
+    height: 760px;
+  }  
+  .results-text {
+    font-size: 39px;
+  }
+  .results .carousel-item {
+    margin-left:62px;
+    width: 600px !important;
+  }
+
+
+} /*@media*/

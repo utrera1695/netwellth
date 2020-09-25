@@ -1,0 +1,1075 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap");
+
+body {
+  font-family: "Quicksand";
+  background-color: #ffffff !important;
+}
+
+/*burger*/
+
+.burger-top,
+.burger-midel,
+.burger-bottom {
+  background-color: #1a9afb !important;
+}
+
+.navbar .sec-e{
+  color: #1a9afb !important;
+}
+
+sup {
+  font-size: 40%;
+  vertical-align: super;
+}
+/**employer-section*/
+.employer {
+  margin-top: 100px;
+  color: #333554;
+}
+
+.employer .title {
+  margin-top: 30px;
+  font-size: 44px;
+  font-weight: 300;
+}
+
+.employer img {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.employer .text-1 {
+  margin-top: 156px;
+  line-height: 50px
+}
+
+.employer .text-1 strong {
+  font-size: 80px;
+}
+
+.employer .text-1 span {
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+.employer .text-2 {
+  font-size: 36px;
+}
+
+
+.button-texto {
+  margin-top: 22px;
+  margin-bottom: 50px;
+  border-color: #0066cc;
+  color: #0066cc;
+  padding: 10px;
+  font-size: 29px;
+  width: 25%;
+margin-left: 37%;
+}
+
+.button-texto:hover {
+  color: #ffffff;
+  background-color: #1a9afb;
+}
+
+/*blue-over-blue*/
+.blue-over-blue {
+  height: 60px;
+  background-color: #1a9afb;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blue-box {
+  height: 110px;
+  width: 80%;
+  margin-top: -25px;
+  background-color: #292A43;
+  margin-left: 10%;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+.blue-text {
+  color: #ffffff;
+  font-size: 38px;
+}
+
+.blue-text strong {
+  color: #ffffff;
+}
+
+
+/**empBenefist*/
+.empBenefist{
+  background-color: #EDF1F5;
+  color: #666666;
+}
+
+.empBenefist .text-1{
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.empBenefist .mt{
+  margin-top: 20px;
+}
+
+.empBenefist img{
+  width: 400px;
+}
+
+.empBenefist .img-2{
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.empBenefist p {
+  margin-top: 10px;
+  font-size: 34px;
+}
+
+
+/*401k-cont*/
+
+.cont-401k {
+  margin-top: 100px;
+}
+
+.cont-401k img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.cont-401k .text-1 {
+  font-size: 24px;
+}
+
+.cont-401k .text-2 {
+  font-size: 18px;
+}
+
+.cont-401k hr {
+  width: 20%;
+  background-color: #1a9afb;
+  margin-left: 0px;
+  margin-bottom: 1px;
+}
+
+.cont-401k a,
+.cont-401k u {
+  color: #1a9afb;
+}
+
+.url-content {
+  width: 70%;
+  height: 80px;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #1a9afb;
+  color: #ffffff;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.url-content .material-icons {
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.url-content:hover {
+  background-color: #ffffff;
+  border: solid thin #1a9afb;
+  color: #1a9afb;
+}
+
+
+/**clients-benefits**/
+
+.clients-benefits {
+  min-height: 180px;
+  background-color: #292A43;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+
+.clients-benefits .text-1 {
+  font-weight: bold;
+  font-size: 117px;
+}
+
+.clients-benefits ul {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.clients-benefits li {
+  margin-top: 10px;
+  letter-spacing: 0.15em;
+}
+
+.clients-benefits col {
+  margin-top: 50px;
+}
+/*wealthierHeallthier*/
+.wealthierHeallthier{
+  background-color: #F3F3F3;
+  color: #666666;
+}
+
+.wealthierHeallthier .text-1{
+  line-height: 73px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 57px;
+  margin-top: 40px;
+}
+
+.wealthierHeallthier strong{
+  color:#1a9afb;
+  font-weight: bold;
+}
+
+.wealthierHeallthier img {
+  width: 576px;
+  margin-bottom: 40px;
+}
+
+.wealthierHeallthier h2{
+  margin-top: 50px;
+  font-weight: 300;
+  letter-spacing: 0.081em;
+  font-size: 2.3rem;
+  margin-left: 20px;
+}
+
+.wealthierHeallthier hr{
+  background-color: #1a9afb;
+  margin-left: 0px;
+  width: 240px;
+}
+
+.wealthierHeallthier ul{
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+/**wellthapp*/
+
+.wellthapp{
+  background-image: url(../img/phone-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height:100vh;
+}
+
+.wellthapp .texto-1{
+  font-size: 105px;
+  line-height: 84px;
+  margin-top: 150px;
+}
+
+.wellthapp .texto-2{
+  font-size: 60px;
+}
+
+.wellthapp hr{
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+
+.wellthapp .magenta{
+  color: #f10066;
+}
+
+.wellthapp .carousel-item{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.wellthapp #wellthapp{
+  width: 400px;
+  margin-top: 30px;
+}
+
+/**caseStudies*/
+
+.caseStudies .title {
+  font-size: 76px;
+  font-weight: bold;
+  color: #333554;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.caseStudies .img {
+  height: 300px;
+}
+
+
+.caseStudies .crawl {
+  height: 210px;
+  margin-top: 90px;
+}
+
+
+.caseStudies .text-1 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.caseStudies .mt,
+.empowered .mt {
+  margin-top: 50px;
+}
+
+.caseStudies ul {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.caseStudies .url-content {
+  width: 50%;
+  height: 80px;
+  margin-left: 25%;
+  font-size: 22px;
+}
+
+.caseStudies .material-icons {
+  font-size: 60px;
+  margin-left: 55px;
+}
+
+.caseStudies .text-2{
+  font-size: 80px;
+  color: #292A43;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.caseStudies .text-3 {
+  font-size: 24px;
+  color: #292A43;
+  margin-top: -40px;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.caseStudies .text-2 span{
+  color:#1a9afb;
+}
+
+
+/* coaching*/
+#coaching {
+  height: 150px;
+  background: #0098FE;
+  margin-bottom: 40px;
+}
+
+
+.coaching .text-1 {
+  font-size: 34px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.coaching-carousel {
+  margin-bottom: 40px;
+}
+
+.coaching-carousel .carousel-item {
+  height: auto;
+  margin-bottom: 30px;
+  width: 720px;
+  margin-left: 172px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+
+.help {
+  height: 150px;
+  background-color: #cccccc;
+  color: #666666;
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+.help strong {
+  font-weight: 900;
+}
+
+.help p {
+  margin-top: 50px;
+}
+
+
+/**healthy**/
+
+.healthy {
+  background-color: #f3f3f3;
+}
+
+.mt {
+  margin-top: 40px;
+}
+
+.healthy img {
+  width: 400px;
+}
+
+.healthy .url-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+  height: 60px;
+  margin-left: 25%;
+}
+
+.healthy .header {
+  margin-top: 20px;
+  font-size: 70px;
+  line-height: 75px;
+}
+
+.healthy hr {
+  background-color: #292A43;
+  width: 60%;
+  margin-left: 0px;
+}
+
+.healthy span {
+  font-size: 30px;
+  line-height: 13px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  font-style: normal;
+}
+
+.healthy ul{
+  margin-top: 20px;
+  
+}
+
+.healthy li{
+  font-size: 25px;
+  line-height: 38px;
+}
+
+
+
+/*footer**/
+.footer-header {
+  background-color: #1a9afb !important;
+}
+
+/*media querys*/
+/*lg*/
+
+@media(min-width: 992px) and (max-width:1199.5px){
+  .caseStudies .url-content {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+  }
+
+
+  /**wellthapp*/
+.wellthapp #wellthapp{
+  margin-top: 15px;
+}
+
+.wellthapp .texto-1{
+  font-size: 98px;
+}
+
+.wellthapp .texto-{
+  font-size: 55px;
+
+}
+
+
+}
+/*md*/
+@media (min-width: 768px) and (max-width: 991.5px) {
+
+  .employer img {
+    width: 360px;
+  }
+
+  .employer .text-1 strong {
+    font-size: 64px;
+  }
+
+  .employer .text-1 span {
+    font-size: 35px;
+  }
+
+  .employer .text-2 {
+    font-size: 26px;
+  }
+
+  .button-texto {
+    margin-top: 13px;
+    padding: 4px;
+    font-size: 25px;
+    width: 30%;
+    margin-left: 0;
+  }
+
+  /*blue-over-blue*/
+
+  .blue-box {
+    height: 100px;
+    margin-top: -20px;
+  }
+  .blue-text {
+    font-size: 28px;
+  }
+  /**empBenefist*/
+
+  .empBenefist img{
+    width: 320px;
+  }
+  
+  .empBenefist .img-2{
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+
+  /*clientesbenefits*/
+
+  .clients-benefits .text-1 {
+    font-size: 112px;
+  }
+
+  .wealthierHeallthier img {
+
+    width: 420px;
+    margin-top: 20px;
+  }
+
+  .wealthierHeallthier h2 {
+    font-size: 2.1rem;
+  }
+
+  .wealthierHeallthier ul {
+    font-size: 23px;
+  }
+
+  /*casestudies*/
+
+  .caseStudies .url-content {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 17px;
+  }
+
+  .caseStudies .material-icons {
+    font-size: 56px;
+    margin-left: 0;
+  }
+
+  .caseStudies .text-2 {
+    font-size: 60px;
+  }
+
+/**wealthierHeallthier*/
+.wealthierHeallthier .text-1 {
+  font-size: 50px;
+}
+/*wellthapp**/
+.wellthapp .texto-1 {
+  font-size: 80px;
+  line-height: 50px;
+  margin-top: 40px;
+}
+.wellthapp .texto-2 {
+  font-size: 48px;
+}
+
+.wellthapp hr {
+  width: 80%;
+}
+
+.wellthapp .carousel-item {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.wellthapp #wellthapp {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 245px;
+}
+  /* coaching*/
+
+  .coaching .text-1,
+  .help p {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .coaching-carousel .carousel-item {
+    height: auto;
+    width: 670px;
+    margin-left: 0px;
+  }
+
+
+
+/**healthy**/
+
+.healthy img {
+  width: 330px;
+}
+
+.healthy .header {
+  font-size: 55px;
+  line-height: 60px;
+}
+
+.healthy hr {
+  width: 77%;
+}
+
+.healthy span {
+  font-size: 28px;
+}
+
+.healthy li {
+  font-size: 23px;
+}
+
+.healthy .url-content {
+  font-size: 14px;
+}
+
+/*increase*/
+
+.increase .principal img {
+  width: 330px;
+}
+
+.increase .text-1 {
+  font-size: 50px;
+}
+.increase .text-2 {
+  font-size: 38px;
+}
+
+.increase .iconos img {
+  width: 60px;
+}
+
+.url-content {
+  font-size: 18px;
+  width: 86%;
+  margin-left: 7%;
+}
+
+}
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.5px) {
+  .employer .text-1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .employer .text-2 {
+    font-size: 26px;
+  }
+
+  .button-texto {
+    margin-left: 0%;
+    width: 40%; 
+  }
+
+  /*blue-over-blue*/
+  .blue-box {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .blue-text {
+    font-size: 23px;
+  }
+
+  /**empBenefist*/
+  .empBenefist .text-1 {
+    font-size: 35px;
+    margin-top: 15px;
+  }
+
+  .empBenefist img{
+    width: 320px;
+  }
+  
+  .empBenefist .img-2{
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+
+
+  /*clientesbenefits*/
+
+ 
+.clients-benefits li {
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
+  /*casestudies*/
+
+
+  .caseStudies .title {
+    font-size: 60px;
+    margin-top: -30px;
+  }
+
+  .caseStudies .text-1 {
+    font-size: 27px;
+  }
+
+  .caseStudies ul {
+    font-size: 18px;
+  }
+
+  .caseStudies .text-2 {
+    font-size: 60px;
+  }
+  .caseStudies .url-content {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+  }
+
+  .caseStudies .material-icons {
+    font-size: 56px;
+    margin-left: 20px;
+  }
+
+  .caseStudies .text-3 {
+    font-size: 18px;
+  }
+/*wealthierHeallthier**/
+
+.wealthierHeallthier .text-1 {
+
+  line-height: 53px;
+  font-size: 37px;
+}
+
+.wealthierHeallthier h2 {
+  text-align: center;
+ }
+
+.wealthierHeallthier hr {
+   margin-left: auto;
+  }
+
+  .wealthierHeallthier ul {
+    margin-left: 30%;
+    margin-bottom: 40px;
+
+  }
+   
+  /* coaching*/
+
+  .coaching .text-1,
+  .help p {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .coaching-carousel .carousel-item {
+    height: auto;
+    width: 510px;
+    margin-left: 0px;
+  }
+
+  /*empowered*/
+
+  .empowered .text-1,.empowered .text-2 {
+    font-size: 34px;
+  }
+
+  .empowered img,
+  .empowered svg,
+  .empowered picture {
+    width: 100px;
+  }
+
+
+  .empowered .texto-img{
+    font-size: 13px;
+  }
+/**healthy**/
+
+.healthy img {
+  width: 300px;
+}
+
+.healthy .header {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.healthy hr {
+  width: auto;
+}
+
+.healthy span {
+  font-size: 28px;
+  text-align: left;
+}
+
+.healthy li {
+  font-size: 23px;
+  text-align: left;
+}
+
+.healthy .url-content {
+  font-size: 14px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+}
+
+/**xs*/
+@media (max-width: 575.5px) {
+
+  .employer .title {
+    font-size: 37px;
+  }
+
+  .employer .text-1 {
+    margin-top: 30px;
+  }
+
+  .employer .text-1 strong {
+    font-size: 60px;
+  }
+
+  .employer .text-1 span {
+    font-size: 36px;
+  }
+
+  .employer img {
+    width: 340px;
+    margin-bottom: 51px;
+    margin-top: 30px;
+  }
+
+  .employer .text-2 {
+
+    font-size: 29px;
+    line-height: 39px;
+
+  }
+
+  .button-texto {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  /*blue-over-blue*/
+  .blue-box {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .blue-text {
+    font-size: 22px;
+  }
+
+
+    /**empBenefist*/
+    .empBenefist .text-1 {
+      font-size: 23px;
+      margin-top: 15px;
+    }
+    
+    .empBenefist img{
+      width: 270px;
+    }
+    
+    .empBenefist .img-2{
+      margin-top: 20px;
+      margin-bottom: 32px;
+    }
+  
+
+  /*401k*/
+
+  .url-content {
+    font-size: 15px;
+  }
+
+
+  /*clients benefits*/
+  .clients-benefits .text-1 {
+    font-size: 86px;
+  }
+  .clients-benefits ul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  /*casestudies*/
+
+  .caseStudies .crawl {
+    margin-top: 0;
+
+  }
+
+  .caseStudies .title {
+    font-size: 60px;
+    margin-top: -30px;
+  }
+
+  .caseStudies .text-1 {
+    font-size: 27px;
+  }
+
+  .caseStudies ul {
+    font-size: 18px;
+  }
+
+  .caseStudies .text-2 {
+    font-size: 38px;
+  }
+
+  .caseStudies .text-3 {
+    font-size: 16px;
+  }
+
+  .caseStudies .mtxs {
+    margin-top:30px;
+  }
+
+  .caseStudies .url-content {
+    font-size: 17px;
+    width: auto;
+    margin-left: auto;
+  }
+
+  .caseStudies .material-icons {
+    font-size: 56px;
+    margin-left: 20px;
+  }
+
+  .caseStudies .text-3 {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: -30px;
+  }
+
+  /*wealthierHeallthier**/
+
+  .wealthierHeallthier .text-1 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+
+  .wealthierHeallthier img {
+
+    width: 330px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+
+  }
+
+  .wealthierHeallthier h2 {
+    text-align: center;
+  }
+
+  .wealthierHeallthier hr {
+    margin-left: auto;
+   }
+
+   .wealthierHeallthier ul {
+    margin-left: 17%;
+    margin-bottom: 40px;
+
+  }
+
+
+
+  /* coaching*/
+
+  .coaching .text-1 {
+    font-size: 23px;
+    margin-top: 26px;
+  }
+
+  .help p {
+    font-size: 23px;
+    margin-top: 34px;
+  }
+
+  .coaching-carousel .carousel-item {
+    height: auto;
+    width: 300px;
+    margin-left: 0px;
+  }
+
+/**healthy**/
+
+.healthy img {
+  width: 300px;
+}
+
+.healthy .header {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.healthy hr {
+  width: auto;
+}
+
+.healthy span {
+  font-size: 28px;
+  text-align: left;
+}
+
+.healthy li {
+  font-size: 23px;
+  text-align: left;
+}
+
+.healthy .url-content {
+  font-size: 14px;
+  width: 70%;
+  margin-left: 15%;
+  padding-right: 10px;
+}
+
+
+}

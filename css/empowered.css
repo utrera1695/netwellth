@@ -1,0 +1,81 @@
+/*empowered*/
+.empowered {
+  color: #333554;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.empowered .text-1 {
+  font-size: 46px;
+  margin-top: 30px;
+  font-weight: 400;
+
+ }
+
+ .empowered .text-2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+ }
+
+
+.empowered img,
+.empowered svg {
+  width: 120px;
+}
+
+.empowered .texto-img{
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.empowered picture{
+  width: 120px;
+}
+
+circle:hover {
+  fill: #333554 !important;
+}
+
+/*md*/
+@media (min-width: 576px) and (max-width: 768px) {
+
+  .empowered .text-1,.empowered .text-2 {
+    font-size: 34px;
+  }
+
+  .empowered img,
+  .empowered svg,
+  .empowered picture {
+    width: 100px;
+  }
+
+
+  .empowered .texto-img{
+    font-size: 13px;
+  }
+}
+
+/**xs*/
+@media (max-width: 575.5px) {
+  /*empowered*/
+
+  .empowered .text-1,.empowered .text-2 {
+    font-size: 30px;
+  }
+
+  .empowered .text-1{
+    margin-top: 0px;
+  }
+
+  .empowered img,
+  .empowered svg,
+  .empowered picture {
+    width: 70px;
+  }
+
+
+  .empowered .texto-img{
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

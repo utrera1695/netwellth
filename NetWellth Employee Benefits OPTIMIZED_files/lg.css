@@ -1,0 +1,132 @@
+@media (min-width: 992px) and (max-width: 1199.5px) {
+  
+  /*banner**/
+  .banner{
+    min-height: 70vh;
+  }
+
+  .banner .text-1{
+    font-size: 48px;
+  }
+  
+  /*duck*/
+
+  #animation_container {
+    width: 960px !important;
+    height: 370px !important;
+    top: -481px !important;
+    left: 0px !important;
+  }
+
+  #canvas {
+    width: 960px !important;
+    height: 370px !important;
+    position: absolute;
+    display: none;
+    margin-top: 250px !important;
+  }
+  #dom_overlay_container {
+    pointer-events: none;
+    overflow: hidden;
+    width: 960px !important;
+    height: 370px !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+
+  .ducks-msg {
+    margin-top: 189px;
+    margin-right: -171px;
+  }
+  .ducks-text-1 {
+    line-height: 48px;
+  }
+
+  .ducks-text-2 {
+    font-size: 16px;
+  }
+
+  .info-texto {
+    font-size: 32px;
+    margin-right: -10%;
+  }
+
+  .info-texto-1 {
+    margin-top: 49px;
+    margin-bottom: 50px;
+    font-size: 19px;
+  }
+  .info-texto-2 {
+    font-size: 14px;
+  }
+
+  .button-texto {
+    font-size: 30px;
+  }
+
+  /*cards*/
+
+  .card {
+    width: 300px;
+  }
+
+  .card-title-2 {
+    font-size: 25px;
+  }
+
+  /*mana*/
+
+  .mana-text {
+    font-size: 39px;
+  }
+
+  /*best live*/
+  .best-text-3 {
+    margin-top: 20%;
+  }
+
+  /*Benefist*/
+  .benef-card {
+    width: 400px;
+    height: 200px;
+  }
+
+  .benef-card-content {
+    margin-top: 64px;
+  }
+
+  .benef-card img {
+    width: 60px;
+  }
+
+  .benef-card-text {
+    font-size: 20px;
+  }
+
+  /*contact local*/
+  .contac-cont {
+    height: 270px;
+  }
+  .cont-text-1 {
+    font-size: 32px;
+  }
+
+  /*result**/
+  .results .carousel-item {
+    margin-left: 110px;
+  }
+  
+  /*letter*/
+
+
+
+  .letter-text-1 {
+    font-size: 70px;
+  }
+  .letter-text-2 {
+    margin-left: 30px;
+  }
+} /*@media*/

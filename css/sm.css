@@ -1,0 +1,294 @@
+@media (min-width: 576px) and (max-width: 767.5px) {
+
+  .banner .text-1 {
+    font-size: 46px;
+    margin-top: 4vh;
+    line-height: 56px;
+  }
+
+  .banner img {
+    margin-top: 3vh;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+
+.banner .letter-text-1 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.banner  strong{
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  text-shadow: none;
+}
+
+
+.banner .material-icons {
+  font-size: 20px;
+}
+
+.banner .form-group {
+  margin-left: 0;
+}
+
+.url-content {
+  font-size: 24px;
+  height: 70px;
+  margin-left: 0;
+}
+
+
+/*duck*/
+.ducks-msg-1 {
+  margin-top: 7vh;
+}
+
+.duck-img {
+  margin-top: 0;
+  margin-left: 1vh;
+}
+
+#animation_container {
+  width: 540px !important;
+  height: 227px !important;
+  margin-top: -136px !important;
+}
+
+#canvas {
+  width: 540px !important;
+  height: 227px !important;
+  position: absolute;
+  display: none;
+  margin-top: 250px !important;
+}
+
+#dom_overlay_container {
+  pointer-events: none;
+  overflow: hidden;
+  width: 540px !important;
+  height: 227px !important;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+
+.ducks-msg {
+  margin-top: 75px;
+  margin-left: -715px;
+}
+
+.ducks-text-1 {
+  line-height: 30px;
+  font-size: 28px;
+}
+
+.ducks-text-2 {
+  font-size: 10px;
+}
+
+.info-texto {
+  font-size: 38px;
+  margin-right: 0px;
+}
+
+.info-texto-1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.info-texto-2 {
+  font-size: 16px;
+}
+
+.button-texto {
+  font-size: 27px;
+}
+
+.lineaVertical {
+  margin-right: -18px;
+}
+
+.btn-sm {
+  border-radius: 0.3rem !important;
+}
+
+.section .btn {
+  margin-top: 0px !important;
+  margin-left: 20px;
+}
+
+/*cards*/
+.cards-cont {
+  margin-top: 0px;
+}
+
+.cards-cont ul {
+  list-style: none;
+}
+
+.cards-cont li {
+  margin-left: -30px;
+}
+
+hr {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: -30px;
+}
+
+.card-title-2 {
+  font-size: 26px;
+  padding-top: 8px;
+}
+
+/*employee employer advisor*/
+
+.employee-section,
+.employer-section {
+  height: 850px;
+}
+
+.advisor-section {
+  height: 950px;
+}
+
+.employee-msg,
+.employer-msg,
+.advisor-msg {
+  margin-left: 70px;
+}
+
+.advisor-section img {
+  margin-top: 20px;
+}
+
+/*mana*/
+
+.mana-text {
+  font-size: 32px;
+}
+
+/*best live*/
+
+.bestcard {
+  margin-left: 63px !important;
+}
+
+.best-cont {
+  margin-bottom: 80px;
+}
+
+/*coach*/
+.learnmore {
+  margin-top: -35px;
+  margin-right: 59px;
+}
+
+.coach-picture {
+  margin-top: 50px;
+}
+
+.coach-cont img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/*Benefist*/
+
+.franja-g {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-height: 6px;
+  width: 100%;
+}
+
+
+.franja-p {
+  min-height: 6px;
+  width: 100%;
+  border-bottom: solid thin rgb(0, 0, 0, 0.1);
+}
+
+.benef-cont {
+  margin-bottom: 0px;
+  height: 550px;
+}
+
+
+.benef-cont .card2 {
+  background-color: transparent;
+  -webkit-box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.58);
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.58);
+}
+
+.benef-card-sm {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 15%;
+  flex-wrap: wrap;
+  width: 70%;
+  color: #2994fe;
+}
+
+.benef-card-sm img {
+  width: 50px;
+}
+
+.benef-text {
+  margin-bottom: 20px;
+}
+
+.benef-card-text {
+  font-size: 20px;
+}
+
+/*contact local*/
+.contac-cont {
+  height: 270px;
+}
+
+.mg-sm {
+  margin-top: 10px !important;
+}
+
+
+/* results**/
+.results {
+  height: auto;
+}
+
+.results .carousel-item {
+  width: 450px !important;
+  margin-top: 0px;
+  height: auto !important;
+  margin-left: 48px;
+}
+
+.results-text {
+  font-size: 29px;
+  margin-top: 40px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+  height: 20px;
+  width: 20px;
+  margin-top: 100px;
+
+}
+
+/*letter*/
+
+}
+
+/*@media*/

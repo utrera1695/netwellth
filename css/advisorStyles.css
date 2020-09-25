@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap");
+
+body {
+  font-family: "Quicksand";
+  background-color: #ffffff !important;
+  color: #555555;
+  font-weight: 300;
+}
+
+.footer-header,
+.burger-top,
+.burger-midel,
+.burger-bottom {
+  background-color: #dc9922;
+}
+.navbar .sec-a{
+  color: #dc9922 !important;
+}
+
+sup {
+  font-size: 40%;
+  vertical-align: super;
+}
+
+body strong {
+  font-weight: 600;
+}
+
+.gold {
+  color: #dc9922;
+}
+
+/*advisor*/
+.banner {
+  margin-top: 150px;
+}
+
+
+.banner .title {
+  margin-bottom: 50px;
+  font-size: 44px;
+  font-weight: 300;
+ 
+}
+
+.banner .text-1 {
+  font-size: 34px;
+  color: #333366;
+  line-height: 60px;
+  margin-top: 90px;
+}
+
+
+.banner .text-1 strong {
+  font-weight: 600;
+  font-size: 52px;
+}
+
+.banner .text-2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #dc9922;
+}
+
+.banner .text-2 strong {
+  font-weight: 600;
+  font-size: 68px;
+}
+
+.banner img {
+  width: 180px;
+}
+
+.banner ul {
+  font-size: 22px;
+  width: 320px;
+  margin-top: 10px;
+}
+
+.banner li {
+  margin-top: 15px;
+}
+
+.banner .request {
+  background-color: #333366;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+
+.banner .request .miboton {
+  background-color: #dc9922;
+  color: #ffffff;
+  width: 40%;
+  margin-left: 30%;
+  font-size: 20px;
+  font-weight: 600;
+  height: 70px;
+  padding: 20px;
+
+}
+
+.banner .request .miboton:hover {
+  background-color: #ffffff;
+  color: #dc9922;
+  border: solid medium #dc9922;
+}
+
+/* robos**/
+
+.robos {
+  background-color: #f3f3f3;
+  margin-top: 40px;
+}
+
+.robos .text-1 {
+  color: #dc9922;
+  font-size: 56px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.robos .and {
+  color: #dc9922;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.robos .text-2 {
+  color: #333366;
+  font-size: 70px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.robos .text-3 {
+  color: #333366;
+  font-size: 36px;
+  margin-left: 15px;
+}
+
+.robos .text-3 strong {
+  font-weight: 600;
+}
+
+.robos img {
+  width: 600px;
+}
+
+/*howdo*/
+
+.howdo {
+  margin-top: 60px;
+}
+
+.howdo img {
+  margin-top: 50px;
+  width: 350px;
+}
+
+.howdo .text-1 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.howdo ul {
+  margin-top: 30px;
+  font-size: 24px;
+  width: 325px;
+}
+
+.howdo .bolder {
+  font-weight: 900;
+}
+
+/*clients*/
+
+.clients {
+  background-color: #eef2f6;
+  margin-top: 40px;
+}
+
+.clients .text-1 {
+  color: #333366;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 82px;
+  float: right;
+}
+
+.clients ul {
+  color: #333366;
+  font-size: 24px;
+  width: 389px;
+  line-height: 55px;
+}
+
+.clients img {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/**participants*/
+
+.participants .text-1 {
+  font-size: 55px;
+  color: #dc9922;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.participants .header {
+  font-size: 55px;
+  letter-spacing: 0.1em;
+}
+
+.participants hr {
+  background-color: #dc9922;
+  width: 80%;
+}
+
+.participants .text-2 {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+
+.blue {
+  color: #333366;
+}
+
+.participants strong {
+  font-weight: 600;
+}
+
+.participants img {
+  width: 430px;
+}
+
+
+/*youget*/
+
+.youget {
+  background-color: #f3f3f3;
+}
+
+.youget .text-1 {
+  font-size: 90px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.youget img {
+  margin-top: 50px;
+  width: 360px;
+  margin-bottom: 50px;
+}
+
+.youget ul {
+  font-size: 24px;
+  margin-top: 117px;
+  width: 360px;
+  letter-spacing: 0.05em;
+  margin-bottom: 50px;
+}
+
+.youget li {
+  margin-top: 10px;
+}
+
+.youget strong {
+  font-weight: 600;
+}
+
+/*letter-cont*/
+
+.letter-cont {
+  margin-top: 0;
+  background-color: #eef2f6;
+}
+
+/*md*/
+@media (min-width: 768px) and (max-width: 991.5px) {
+
+  .banner ul {
+    margin-top: 150px;
+    width: 290px;
+  }
+
+  .banner .request .miboton {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  /*clients*/
+
+  .clients ul {
+    width: 320px;
+    line-height: 50px;
+  }
+
+  .clients .text-1 {
+    margin-top: 65px;
+  }
+
+  /*participants*/
+
+  .participants .header {
+    font-size: 50px;
+  }
+
+  .participants .text-2 {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .participants img {
+    width: 330px;
+  }
+
+  /*youget*/
+  .youget .text-1 {
+    font-size: 70px;
+  }
+
+  .youget img {
+    margin-top: 98px;
+    width: 320px;
+  }
+
+  .youget ul {
+    width: auto;
+  }
+
+}
+
+
+/*sm*/
+@media (min-width: 575px) and (max-width: 767.5px) {
+  .banner ul {
+    margin-left: 16%;
+  }
+
+  .banner .request .miboton {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  /*robos*/
+
+  .robos .text-1 {
+    font-size: 41px;
+  }
+
+  .robos .text-2 {
+    font-size: 60px;
+  }
+
+  .robos .text-3,
+  .robos .and {
+    font-size: 31px;
+  }
+
+  .robos img {
+    width: 500px;
+  }
+
+  /*.howdo*/
+
+  .howdo ul {
+    text-align: left;
+    margin-left: 16%;
+  }
+
+  /*clients*/
+
+  .clients ul {
+    width: 320px;
+    line-height: 50px;
+    margin-left: 16%;
+    font-size: 22px;
+  }
+
+  .clients .text-1 {
+    margin-top: 20px;
+    float: none;
+    font-size: 55px;
+  }
+
+  .clients img {
+    width: 320px;
+  }
+
+  /*participants*/
+
+  .participants .text-1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  .participants .header {
+    font-size: 50px;
+  }
+
+  .participants .text-2 {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .participants img {
+    width: 330px;
+  }
+
+  /*youget*/
+  .youget .text-1 {
+    font-size: 70px;
+  }
+
+  .youget img {
+    margin-top: 50px;
+    width: 320px;
+  }
+
+  .youget ul {
+    font-size: 20px;
+    width: 320px;
+    margin-left: 16%;
+    margin-top: 0px;
+  }
+
+}
+
+/*xs*/
+@media (max-width: 575.5px) {
+  .banner .request .miboton {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+    padding: 22px;
+  }
+
+  .banner .text-1 {
+    margin-top: 20px;
+  }
+
+  .banner .title {
+    font-size: 37px;
+    margin-top: 10px;
+    
+  }
+  /*robos*/
+
+  .robos .text-1 {
+    font-size: 26px;
+  }
+
+  .robos .text-2 {
+    font-size: 40px;
+    margin-left: 5px;
+  }
+
+  .robos .text-3,
+  .robos .and {
+    font-size: 20px;
+  }
+
+  .robos img {
+    width: 320px;
+  }
+
+
+  /*howdo*/
+
+  .howdo .text-1 {
+    font-size: 30px;
+  }
+
+  .howdo ul {
+    font-size: 20px;
+    width: 325px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .howdo img {
+    width: 300px;
+  }
+
+  /*clients*/
+
+  .clients ul {
+    width: 320px;
+    line-height: 50px;
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .clients .text-1 {
+    margin-top: 20px;
+    float: none;
+    font-size: 50px;
+  }
+
+  .clients img {
+    width: 320px;
+  }
+
+  /*participants*/
+
+  .participants .text-1 {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+
+  .participants .header {
+    font-size: 43px;
+  }
+
+  .participants .text-2 {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .participants hr {
+    width: 90%;
+  }
+
+  .participants img {
+    width: 320px;
+  }
+
+  /*youget*/
+  .youget .text-1 {
+    font-size: 70px;
+  }
+
+  .youget img {
+    margin-top: 50px;
+    width: 320px;
+  }
+
+  .youget ul {
+    font-size: 20px;
+    width: 320px;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+
+
+}

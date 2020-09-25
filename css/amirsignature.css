@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+  font-family: 'Quicksand';
+  background-color: white;
+}
+
+header {
+  min-height: 100px;
+  background-color: #ff0066;
+}
+
+a{
+  text-decoration: none;
+}
+@media (min-width:992px){
+
+  #logo {
+    width: 150px;
+  }
+  
+  .social {
+    margin-top:15px;
+    margin-left:10px;
+    width: 60px;
+  }
+  
+  /* main */
+  
+  #amirPng {
+    height: 200px;
+    margin-top: 100px;
+  }
+  
+  #cargo{
+    margin-top: 20px;
+    font-size: 42px;
+  } 
+  
+  #cargo strong {
+    font-weight: 900;
+  }
+  
+  #vertical {
+    margin-top: 100px;
+    widows: 1px;
+    height: 400px;
+  }
+  
+  /* I */
+  #I {
+    margin-left: 40px;
+  }
+  #connect{
+    margin-top:170px;
+    font-size: 21px;
+  }
+  
+  .primero {
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+  }
+  
+  .social2 {
+    width: 65px;
+    margin-left: 2px !important;
+    margin-right: 13px;
+  }
+  
+  .ultimo{
+    margin-left: 2px !important;
+    margin-right: 0px !important;
+  }
+  /* /I */
+  #horizontal {
+    margin-top: 50px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    width: 480px;
+    height: 1px;
+  }
+  
+  /*contactos*/
+  .contactos{
+    margin-left: 29px;
+    margin-top:10px;
+  }
+  
+  .c-icon{
+    width: 30px;
+  }
+  
+  .datos{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .learn{
+   /* width: 160px; */
+   height: 30px;
+  }
+  /*/contactos*/
+  
+  /* /main */
+  
+  /*footer*/
+  
+    #footer{
+      margin-top:50px;
+    }
+  
+    .aling {
+      font-size: 21px;
+    }
+  /*/footer*/
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+
+  #logo {
+    width: 130px;
+  }
+  
+  .social {
+    margin-top:15px;
+    margin-left:10px;
+    width: 55px;
+  }
+  
+  /* main */
+  
+  #amirPng {
+    height: 170px;
+    margin-top: 100px;
+  }
+  
+  #cargo{
+    margin-top: 20px;
+    font-size: 34px;
+  } 
+  
+  #cargo strong {
+    font-weight: 900;
+  }
+  
+  #vertical {
+    margin-top: 100px;
+    widows: 1px;
+    height: 340px;
+  }
+  
+  /* I */
+  #I {
+    margin-left: 40px;
+  }
+  #connect{
+    margin-top:170px;
+    font-size: 18px;
+  }
+  
+  .primero {
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+  }
+  
+  .social2 {
+    width: 55px;
+    margin-left: 2px !important;
+    margin-right: 13px;
+  }
+  
+  .ultimo{
+    margin-left: 2px !important;
+    margin-right: 0px !important;
+  }
+  /* /I */
+  #horizontal {
+    margin-top: 30px;
+    margin-left: -30px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 1px;
+  }
+  
+  /*contactos*/
+  .contactos{
+    margin-left: 29px;
+    margin-top:10px;
+  }
+  
+  .c-icon{
+    width: 20px;
+  }
+  
+  .datos{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .learn{
+    /*width: 131px;*/
+    
+   height: 20px;
+  }
+  /*/contactos*/
+  
+  /* /main */
+  
+  /*footer*/
+  
+    #footer{
+      margin-top:50px;
+    }
+  
+    .aling {
+      font-size: 18px;
+    }
+  /*/footer*/
+
+}
+
+@media (max-width:768px){
+  #logo {
+    width: 120px;
+  }
+  
+  .social {
+    margin-top:15px;
+    margin-left:10px;
+    width: 48px;
+  }
+  
+  /* main */
+  
+  #amirPng {
+    height: 170px;
+    margin-top: 30px;
+  }
+  
+  #cargo{
+    margin-top: 20px;
+    font-size: 34px;
+  } 
+  
+  #cargo strong {
+    font-weight: 900;
+  }
+  
+  #vertical {
+    margin-top: 100px;
+    widows: 1px;
+    height: 340px;
+  }
+  
+  /* I */
+  #I {
+    margin-left: 40px;
+  }
+  #connect{
+    margin-top:10px;
+    font-size: 18px;
+  }
+  
+  .primero {
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+  }
+  
+  .social2 {
+    width: 55px;
+    margin-left: 2px !important;
+    margin-right: 13px;
+  }
+  
+  .ultimo{
+    margin-left: 2px !important;
+    margin-right: 0px !important;
+  }
+  /* /I */
+  #horizontal {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 1px;
+  }
+  
+  /*contactos*/
+  .contactos{
+    margin-left: 29px;
+    margin-top:10px;
+  }
+  
+  .c-icon{
+    width: 20px;
+  }
+  
+  .datos{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .learn{
+   /* width: 131px; */
+   
+   height: 20px;
+  }
+  /*/contactos*/
+  
+  /* /main */
+  
+  /*footer*/
+  
+    #footer{
+      margin-top:20px;
+      margin-bottom: 20px;
+    }
+  
+    .aling {
+      font-size: 18px;
+      margin-left:35px;
+    }
+  /*/footer*/
+}

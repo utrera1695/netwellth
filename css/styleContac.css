@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap");
+body {
+  font-family: "Quicksand";
+  background-color: #ffffff !important;
+}
+
+/*navbar**/
+
+.navbar-blue {
+  background-color: #ffffff;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-white {
+  -webkit-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding-bottom: 0px !important;
+}
+
+/*burger*/
+
+.burger-top,
+.burger-midel,
+.burger-bottom {
+  background-color: #cc9924;
+}
+
+.sidebar-heading {
+  margin-top: 130px;
+}
+/*main**/
+main {
+  margin-top: 130px;
+}
+.schedule {
+  width: 300px;
+  font-size: 46px;
+  transform: rotate(-8deg);
+  line-height: 40px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color:#555;
+}
+
+main .p1 {
+  margin-top: 50px;
+  width: 300px;
+}
+
+.nomore {
+  color: #ff0066;
+}
+
+h1{
+  color: #555;
+  font-weight: lighter;
+}
+hr{
+  background-color: #000000;
+}
+.calendario {
+  width: 400px;
+  border-radius: 10px !important;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border: solid thin rgba(0, 0, 0, 0.12);
+  max-height: 525px;
+}
+
+.jason {
+  width: 235px;
+}
+
+.hashtag{
+  margin-top: 100px;
+}
+
+.url-content {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ff0066;
+  color: #ffffff;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  margin-left: 5%;
+  margin-top: 70px;
+}
+
+.url-content .material-icons {
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.url-content:hover {
+  background-color: #ffffff;
+  border: solid thin #ff0066;
+  color: #ff0066;
+}
+
+
+/*numbers*/
+
+.numbers{
+  margin-top: 40px;
+}
+
+.numbers img{
+  width: 40px;
+  margin-left: 20px;
+}
+
+.numbers span{
+  font-size: 30px;
+  margin-left: 20px;
+  color: #555;
+  letter-spacing: 0.04em;
+}
+
+/*letter*/
+
+.letter-cont {
+  margin-top: 80px !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199.5px) {
+  .letter-text-1 {
+    font-size: 55px;
+  }
+
+
+  .calendario {
+    max-height: 503px;
+  }
+
+  .hashtag {
+    margin-top: 50px;
+  }
+
+  .jason {
+    width: 198px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.5px) {
+  .schedule {
+    width: 380px;
+    font-size: 70px;
+    line-height: 58px;
+    margin-left: 191px;
+  }
+  main .p1 {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+.hashtag {
+    margin-top: 50px;
+}
+
+.numbers span {
+  font-size: 25px;
+}
+
+.letter-cont {
+  margin-top: 60px !important;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.5px) {
+  
+  h1{
+    font-size: 2rem;
+  }
+  .hashtag {
+    margin-top: 50px;
+  }
+  main .p1 {
+    width: 100%;
+  }
+
+  .jason {
+    width: 500px;
+  }
+
+  .numbers span {
+    font-size: 28px;
+  }
+
+  .letter-cont {
+    margin-top: 60px !important;
+}
+}
+
+@media (max-width: 576px) {
+  h1{
+    font-size: 2rem;
+  }
+  .hashtag {
+    margin-top: 50px;
+  }
+  main .p1 {
+    width: 100%;
+  }
+
+  .jason {
+    width: 300px !important;
+  }
+
+  .calendario {
+    width: 350px !important;
+  }
+
+  .numbers span {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+
+.numbers img {
+    width: 30px;
+    margin-left: 0px;
+  } 
+  .letter-cont {
+    margin-top: 60px !important;
+}
+
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap");
+body {
+  font-family: "Quicksand";
+  background-color: #ffffff !important;
+  color: #000000;
+  font-weight: 300;
+}
+
+/*navbar**/
+
+.navbar-blue {
+  background-color: #ffffff;
+  transition: all 1s ease;
+  -webkit-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-white {
+  -webkit-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding-bottom: 0px !important;
+}
+
+/*burger*/
+.footer-header,
+.burger-top,
+.burger-midel,
+.burger-bottom {
+  background-color: #cc9924;
+}
+
+/*s404*/
+.s401 {
+  margin-top: 150px;
+}
+
+
+.s401 .titulo{
+  width: 73%;
+}
+
+.s401 .texto-1{
+  font-size: 30px; 
+}
+
+.s401 .gold{
+  color: #cc9924;
+  font-weight: 500;
+}
+
+.s401 img{
+  width: 300px;
+}
+
+.s401 hr{
+  background-color: #000000;
+}
+sup {
+  font-size: 40%;
+  vertical-align: super;
+}
+
+.s401 .contenido .titulo{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.s401 .contenido .fino{
+  font-weight: 200;
+}
+
+.s401 .contenido img{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.s401 strong{
+  font-weight: 600;
+}
+
+.s401 .contenido p, .s401 .contenido ol  {
+  font-size: 20px;
+}
+
+.s401 .contenido li{
+  margin-top: 15px;
+}
+
+/*md*/
+@media (max-width: 767.5px) {
+  .s401 .titulo{
+    width: 100%;
+  }
+
+  .s401 img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+
+  .s401 hr{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+/*xs*/
+@media (max-width: 575.5px){
+  
+
+  }

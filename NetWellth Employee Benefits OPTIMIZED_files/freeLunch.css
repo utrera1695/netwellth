@@ -1,0 +1,61 @@
+#freeLunch .modal-header{
+  border-bottom: none !important;
+}
+
+#freeLunch .text-1{
+  color: #333454;
+  font-size: 30px;
+}
+
+#freeLunch .text-2{
+  color: #1a9afb;
+  font-size: 20px;
+}
+
+#freeLunch .text-3{
+  color: #1a9afb;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#freeLunch .text-4{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+#freeLunch .modal-boton{
+  background-color: #ff0066;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 5px;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 22px;
+}
+
+#freeLunch .hashtags{
+  color: #ff0066;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#freeLunch .disclaimer{
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+
+
+@media (max-width: 575.5px) {
+
+
+#freeLunch .modal-boton{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+}

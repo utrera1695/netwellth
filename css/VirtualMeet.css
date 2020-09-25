@@ -1,0 +1,371 @@
+@import url("https://use.typekit.net/dps4chv.css");
+
+body{
+  font-family: century-gothic, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff !important;
+}
+
+#bg-Virtual{
+  background-image: url('../img/bg-img-VM.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 113px;
+}
+
+.title{
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  color: #333454;
+  margin-left: 434px;
+}
+
+.virtual-img-1 img{
+  display: block;
+  width: 52%;
+  margin-left: 84px;
+  margin-top: 25px;
+  /* border: 1px solid rgb(25, 211, 50); */
+}
+
+.virtual-img-2 img{
+  /* border: 1px solid #afda15; */
+  display: block;
+  width: 45%;
+  margin-top: 25px;
+  margin-left: 77px;
+}
+
+.container-imagen {
+  /* border: 1px solid rgb(255, 0, 21); */
+  width: 500px;
+  margin-top: 30px;
+  /*! margin-left: 10px; */
+}
+
+.contenedor-imagen-1{
+  /* border: 1px solid blue; */
+  width: 193px;
+  /* height: 100px; */
+}
+
+.contenedor-imagen-2{
+  /* border: 1px solid blue; */
+  width: 47px;
+  margin-left: 118px;
+  /* height: 100px; */
+}
+
+.contenedor-imagen-3{
+  /* border: 1px solid blue; */
+  width: 47px;
+  margin-left: 10px;
+  /* height: 100px; */
+}
+
+.contenedor-imagen-4{
+  /* border: 1px solid blue; */
+  width: 80px;
+  margin-left: 5px;
+  /* height: 100px; */
+}
+
+
+/* #################### RESPONSIVE ######################### */
+
+/* ################### TAMAÑO EXTRA SMALL (XS) ############## */
+@media (max-width:575.5px) {
+ 
+  #bg-Virtual{
+    background-color: #f3f3f3;
+    display: none;
+  }
+  
+  .title{
+    /* border: 1px solid red; */
+    margin-top: 155px;
+    color: #333454;
+    margin-left: 0px;
+  }
+  .title h2 {
+    font-size: 40px;
+  }
+
+  .text-401 {
+    text-align: center;
+    font-size: 50px;
+    color: #284a9a;
+  }
+
+  .text-short {
+    color: #666666;
+    font-size: 35px;
+  }
+
+  .signature{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+/* ################### TAMAÑO SMALL (SM) ################### */
+@media (min-width: 576px) and (max-width: 767.5px) {
+  #bg-Virtual{
+    background-color: #f3f3f3;
+    display: none;
+  }
+  
+  .title{
+    /* border: 1px solid red; */
+    margin-top: 155px;
+    color: #333454;
+    margin-left: 0px;
+  }
+  .title h2 {
+    font-size: 40px;
+  }
+
+  .text-401 {
+    text-align: center;
+    font-size: 50px;
+    color: #284a9a;
+  }
+
+  .text-short {
+    color: #666666;
+    font-size: 35px;
+  }
+
+  .signature{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  /* .social .facebook{
+    margin-left: 20px;
+  } */
+
+}
+
+/* #################v TAMAÑO MEDIUM (MD) ################### */
+@media (min-width: 768px) and (max-width: 991.5px) {
+  #bg-Virtual{
+    background-image: url('../img/bg-img-VM.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 113px;
+  }
+  
+  .title{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    color: #333454;
+    margin-left: 327px;
+  }
+
+  .title h2 {
+    font-size: 23px;
+  }
+  
+  .virtual-img-1 img{
+    display: block;
+    width: 52%;
+    margin-left: 84px;
+    margin-top: 25px;
+    /* border: 1px solid rgb(25, 211, 50); */
+  }
+  
+  .virtual-img-2 img{
+    /* border: 1px solid #afda15; */
+    display: block;
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 77px;
+  }
+  
+  .container-imagen {
+    /* border: 1px solid rgb(255, 0, 21); */
+    width: 500px;
+    margin-top: 30px;
+    /*! margin-left: 10px; */
+  }
+  
+  .contenedor-imagen-1{
+    /* border: 1px solid blue; */
+    width: 151px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-2{
+    /* border: 1px solid blue; */
+    width: 38px;
+    margin-left: 80px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-3{
+    /* border: 1px solid blue; */
+    width: 38px;
+    margin-left: 10px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-4{
+    /* border: 1px solid blue; */
+    width: 70px;
+    margin-left: 5px;
+    /* height: 100px; */
+  }
+
+  .footer-cont {
+    margin-top: -392px;
+  }
+}
+
+/* #################### TAMAÑO LARGE (LG)######################## */
+@media (min-width: 992px) and (max-width: 1199.5px) {
+  #bg-Virtual{
+    background-image: url('../img/bg-img-VM.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: 113px;
+  }
+  
+  .title{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    color: #333454;
+    margin-left: 377px;
+  }
+  
+  .virtual-img-1 img{
+    display: block;
+    width: 52%;
+    margin-left: 84px;
+    margin-top: 25px;
+    /* border: 1px solid rgb(25, 211, 50); */
+  }
+  
+  .virtual-img-2 img{
+    /* border: 1px solid #afda15; */
+    display: block;
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 77px;
+  }
+  
+  .container-imagen {
+    /* border: 1px solid rgb(255, 0, 21); */
+    width: 500px;
+    margin-top: 30px;
+    /*! margin-left: 10px; */
+  }
+  
+  .contenedor-imagen-1{
+    /* border: 1px solid blue; */
+    width: 193px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-2{
+    /* border: 1px solid blue; */
+    width: 47px;
+    margin-left: 118px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-3{
+    /* border: 1px solid blue; */
+    width: 47px;
+    margin-left: 10px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-4{
+    /* border: 1px solid blue; */
+    width: 80px;
+    margin-left: 5px;
+    /* height: 100px; */
+  }
+
+  .footer-cont {
+    margin-top: -219px;
+  }
+}
+
+
+/* ################ TAMAÑO EXTRA LARGE (XL) #################### */
+@media (min-width: 1400px) {
+  #bg-Virtual{
+    background-image: url('../img/bg-img-VM.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-top: 113px;
+  }
+  
+  .title{
+    /* border: 1px solid red; */
+    margin-top: 84px;
+    color: #333454;
+    margin-left: 556px;
+  }
+
+  .title h2 {
+    font-size: 46px;
+  }
+  
+  .virtual-img-1 img{
+    display: block;
+    width: 80%;
+    margin-left: 84px;
+    margin-top: 25px;
+    /* border: 1px solid rgb(25, 211, 50); */
+  }
+  
+  .virtual-img-2 img{
+    /* border: 1px solid #afda15; */
+    display: block;
+    width: 63%;
+    margin-top: 25px;
+    margin-left: 148px;
+  }
+  
+  .container-imagen {
+    /* border: 1px solid rgb(255, 0, 21); */
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 963px;
+  }
+  
+  .contenedor-imagen-1{
+    /* border: 1px solid blue; */
+    width: 225px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-2{
+    /* border: 1px solid blue; */
+    width: 53px;
+    margin-left: 118px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-3{
+    /* border: 1px solid blue; */
+    width: 53px;
+    margin-left: 10px;
+    /* height: 100px; */
+  }
+  
+  .contenedor-imagen-4{
+    /* border: 1px solid blue; */
+    width: 86px;
+    margin-left: 5px;
+    /* height: 100px; */
+  }
+}

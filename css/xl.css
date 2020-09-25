@@ -1,0 +1,96 @@
+@media (min-width: 1200px) {
+  .banner{
+    min-height: 70vh;
+  }
+  
+  /*duck*/
+
+  #animation_container {
+    width: 1140px !important;
+    height: 450px !important;
+    top: -460px !important;
+    left: 75px !important;
+  }
+
+  #canvas {
+    width: 1140px !important;
+    height: 450px !important;
+    position: absolute;
+    display: none;
+    margin-top: 250px !important;
+    margin-left: 0px !important;
+  }
+  #dom_overlay_container {
+    pointer-events: none;
+    overflow: hidden;
+    width: 1140px !important;
+    height: 500px !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .info-texto {
+    font-size: 39px;
+    margin-right: -24%;
+  }
+
+  .button-texto {
+    font-size: 30px;
+  }
+
+  .info-texto-1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 23px;
+  }
+  .info-texto-2 {
+    font-size: 18px;
+  }
+  .lineaVertical {
+    margin-right: 29px;
+  }
+
+  /*cards*/
+
+  .card {
+    width: 350px;
+  }
+
+  /*mana*/
+
+  .mana-text {
+    font-size: 54px;
+  }
+
+  /*best live*/
+  /*benefits**/
+
+  .benef-card {
+    width: 500px;
+    height: 200px;
+  }
+
+  .benef-card-content {
+    margin-top: 64px;
+  }
+
+  .benef-card img {
+    width: 70px;
+  }
+  .benef-card-text {
+    font-size: 25px;
+  }
+  /*contact local*/
+  .cont-btn {
+    margin-top: 29%;
+  }
+  .cont-text {
+    margin-top: 20%;
+  }
+
+  /*letter*/
+
+
+} /*@media*/
