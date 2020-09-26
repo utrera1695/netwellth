@@ -2,37 +2,46 @@
   .custom-container-section1 {
     height: 90vh;
   }
+
   .custom-container-txt-section1 {
     left: 22vh;
     position: relative;
   }
+
   .custom-btn-trynow {
     position: relative;
     bottom: 1vh;
   }
+
   .txt-top-different {
     font-size: 3rem !important;
     line-height: normal;
     font-weight: bold;
   }
+
   .secundary-text {
     color: #989898 !important;
   }
+
   .custom-employee-section {
     position: relative;
     top: 10vh;
   }
+
   .results {
     background: #f4f4f4 !important;
     padding: 5vh;
   }
+
   .footer-cont {
     margin-top: 4vh;
   }
+
   .custom-container-text-pt {
     font-weight: bold;
     padding: 0px 6rem;
   }
+
   .custon-container-txt-employee {
     color: #666;
   }
@@ -54,9 +63,11 @@
   .custom-container-img-social {
     display: none;
   }
+
   .font-custom-social {
     display: none;
   }
+
   .custom-container-section {
     display: none;
   }
@@ -121,12 +132,18 @@
   .inmin {
     display: none !important;
   }
+
+  .text-responsive {
+    justify-content: center;
+
+    text-align: center !important;
+  }
 }
 
 @media screen and (min-width: 500px) {
   .center-row-option img {
     top: 10rem;
-    left: 33% !important;
+    /*  left: 33% !important; */
     width: 180px;
   }
 }
@@ -135,6 +152,12 @@
   .responsive-left-side {
     left: 0rem;
     position: relative;
+  }
+
+  .text-responsive {
+    justify-content: start;
+    text-align: initial !important;
+    font-size: 24px;
   }
 
   .respBannerRight {
@@ -187,7 +210,7 @@
   }
 
   .resp-d-lg-none {
-    width: 400px !important;
+    /* width: 400px !important; */
   }
 
   .resp-top-banner-image {
@@ -231,7 +254,7 @@
   }
 
   .responsive-row {
-    height: 75vh !important;
+    height: 100vh !important;
     margin-left: 0 !important;
   }
 
@@ -258,7 +281,7 @@
   .top-side {
     position: absolute !important;
     text-align: center !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     border-left: none;
     justify-content: center;
   }
@@ -274,7 +297,7 @@
   }
 
   .txt-top-different {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     text-align: center;
     font-weight: bold;
     width: 34vh;
@@ -299,12 +322,14 @@
   }
 
   .responsive-employee hr {
-    width: 24rem !important;
+    width: 90% !important;
   }
+
   .p1 {
     margin: 0 auto;
     padding: 0 4rem;
   }
+
   .custom-container-img-social {
     align-items: center;
     justify-content: center;
@@ -313,16 +338,20 @@
     width: 100%;
     display: flex;
   }
+
   .font-custom-social {
     font-size: 25px;
     text-align: center !important;
   }
+
   .custom-footer-txt {
     font-size: 1.8rem;
   }
+
   .footer-cont {
     margin-top: 8vh;
   }
+
   .custom-logo-none {
     display: none !important;
   }
@@ -340,6 +369,9 @@
     font-size: 1rem !important;
     width: 173px;
     margin: 0 auto !important;
+    padding: 1rem !important;
+    font-size: 25px !important;
+
   }
 
   .resp-col {
@@ -376,7 +408,7 @@
     margin-top: -3.75rem;
   }
 
-  .center-row-option > .col-4 {
+  .center-row-option>.col-4 {
     max-width: 100% !important;
   }
 
@@ -396,8 +428,12 @@
 
   .center-row-option img {
     position: absolute;
-    top: 10rem;
-    left: 2rem;
+    top: 8rem;
+  }
+
+  .image-calculator {
+    display: flex;
+    justify-content: center;
   }
 
   .text-calculator {
@@ -414,11 +450,11 @@
     flex-direction: column;
   }
 
-  .center-row-option-paid > .col-3 {
+  .center-row-option-paid>.col-3 {
     max-width: 100% !important;
   }
 
-  .center-row-option-paid > .col-2 {
+  .center-row-option-paid>.col-2 {
     max-width: 100% !important;
   }
 
@@ -460,7 +496,7 @@
     margin-top: 20px;
   }
 
-  .center-row-option-footer > .col-2 {
+  .center-row-option-footer>.col-2 {
     max-width: 100% !important;
     flex: none !important;
   }
@@ -535,7 +571,7 @@
   .top-side {
     position: absolute !important;
     text-align: center !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     border-left: none;
   }
 
@@ -545,5 +581,9 @@
 
   .respBannerLeft {
     font-size: 15px !important;
+  }
+
+  .getpaidtext {
+    font-size: 35px !important;
   }
 }

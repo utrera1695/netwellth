@@ -367,7 +367,7 @@ ol li {
 .employee-section img,
 .employer-section img,
 .advisor-section img {
-  width: 100%;
+  width: 100% !important;
 }
 
 .employee-msg,
