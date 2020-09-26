@@ -481,7 +481,7 @@
   }
 
   .border-custom-paid {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px dotted #e62e63;
   }
 
   .custom-save-text2 {
